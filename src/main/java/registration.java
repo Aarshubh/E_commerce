@@ -58,7 +58,7 @@ public class registration extends HttpServlet {
 	try
 	{
 		
-		Class.forName("com.mysql.cj.jdbc.Driver");
+		Class.forName("database.sql");
 		String url="jdbc:mysql://localhost:3306/ecommerce";
 		Connection con=DriverManager.getConnection(url,"root","Shubh@94154#!@");
 		
